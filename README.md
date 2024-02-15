@@ -1,6 +1,6 @@
-# react scroll paralax
+# react scroll parallax
 
-Tplaying around with this react paralax thing..
+playing around with this react parallax thing..
 
 under construction..
 
