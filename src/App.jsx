@@ -5,7 +5,7 @@ import './App.css';
 export default function App() {
   return (
     <>
-      <h1>hello paralax</h1>
+      <h1 style={{ color: 'white' }}>hello parallax</h1>
       <Cube></Cube>
     </>
   );

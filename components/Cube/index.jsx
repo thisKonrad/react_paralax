@@ -1,10 +1,8 @@
 /* :::: CUBE :::: */
 import { useParallax } from 'react-scroll-parallax';
-import styles from './styles.css';
+import styles from './styles.module.css';
 
 export default function Cube() {
-  const parallax = useParallax({
-    speed: -10,
-  });
-  return <div className={styles.cube} ref={parallax.ref} />;
+  const { ref } = useParallax < HTMLDivElement > { speed: 10 };
+  return <div className={styles.cube} ref={ref} />;
 }
