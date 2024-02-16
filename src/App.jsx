@@ -47,8 +47,8 @@ export default function App() {
       <Jumbo>
         <DesertSongVerseFive />
       </Jumbo>
-      <SunCanyonImage />
       <SteelCanyonImage />
+      <SunCanyonImage />
       <DesertRockImage />
       <Jumbo>
         <DesertSongVerseSix />
