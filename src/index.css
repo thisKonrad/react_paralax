@@ -18,7 +18,8 @@ body {
   background: white;
 }
 
-img {
-  width: 100%;
-  height: 100vh;
+.imageContent {
+  color: white;
+  letter-spacing: 3px;
+  text-shadow: 0em 0em 8px rgba(0, 0, 0, 0.4);
 }

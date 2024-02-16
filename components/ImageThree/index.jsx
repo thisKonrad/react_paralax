@@ -1,10 +1,18 @@
 /* :::: ImageThree :::: */
-import { Parallax } from 'react-scroll-parallax';
+import { Parallax } from 'react-parallax';
+import StoneDesert from './stone_desert.jpg';
 
-export default function ImageThree() {
+export default function ImageTwo() {
   return (
-    <Parallax speed={-10}>
-      <img src={'./stone_desert.jpg'} />
+    <Parallax
+      blur={10}
+      bgImage={StoneDesert}
+      bgImageAlt="black rock desert"
+      strength={200}
+    >
+      <div className="imageContent">
+        <p>black rock desert</p>
+      </div>
     </Parallax>
   );
 }
