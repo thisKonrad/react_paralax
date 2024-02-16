@@ -1,4 +1,4 @@
-/* :::: ImageTwo :::: */
+/* :::: BeduineImage :::: */
 import { Parallax } from 'react-parallax';
 import Beduines from '/beduines_on_camel.jpg';
 

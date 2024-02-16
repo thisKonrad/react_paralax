@@ -1,4 +1,4 @@
-/* :::: IMAGE ONE :::: */
+/* :::: SahraSunImage :::: */
 import { Parallax } from 'react-parallax';
 import Sahara from '/sahara_sun.jpg';
 
