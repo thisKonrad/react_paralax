@@ -23,7 +23,7 @@ import './App.css';
 export default function App() {
   return (
     <main>
-      <h1>In The Desert</h1>
+      <h1>A Horse With No Name</h1>
       <BigDunesImage />
       <Jumbo>
         <DesertSongVerseOne />
