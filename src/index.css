@@ -19,16 +19,11 @@ body {
   overflow-x: hidden;
 }
 
-/* image {
-  position: relative;
-  height: 100vh;
-}
- */
 .imageContent {
   display: flex;
   justify-content: center;
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
 }
 
 .imageMsg {
