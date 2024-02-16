@@ -1,9 +1,11 @@
 /* :::: APP :::: */
-import SaharaSunImage from '../components/SaharaSunImage';
 import BeduinesImage from '../components/BeduinesImage';
 import StoneDesertImage from '../components/StoneDesertImage';
 import CanyonDesertImage from '../components/CanyonDesertImage';
 import BigDunesImage from '../components/BigDunesImage';
+import SaharaSunImage from '../components/SaharaSunImage';
+import DesertCaveImage from '../components/DesertCaveImage';
+
 import Jumbo from '../components/Jumbo';
 import DesertSongVerseOne from '../components/DesertSongVerseOne';
 import DesertSongVerseTwo from '../components/DesertSongVerseTwo';
@@ -36,7 +38,10 @@ export default function App() {
       <Jumbo>
         <DesertSongVerseThree />
       </Jumbo>
+
       <SaharaSunImage />
+      <DesertCaveImage />
+
       <Jumbo>
         <DesertSongVerseFour />
       </Jumbo>
