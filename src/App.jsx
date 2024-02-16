@@ -1,12 +1,19 @@
 /* :::: APP :::: */
-import Cube from '../components/Cube';
+import { ParallaxProvider } from 'react-scroll-parallax';
+import ImageOne from '../components/ImageOne';
+import ImageTwo from '../components/ImageTwo';
+import ImageThree from '../components/ImageThree';
 import './App.css';
 
 export default function App() {
   return (
-    <>
-      <h1 style={{ color: 'white' }}>hello parallax</h1>
-      <Cube></Cube>
-    </>
+    <main>
+      <ParallaxProvider>
+        <h1 style={{ color: 'white' }}>hello world!</h1>
+        <ImageOne />
+        <ImageTwo />
+        <ImageThree />
+      </ParallaxProvider>
+    </main>
   );
 }
