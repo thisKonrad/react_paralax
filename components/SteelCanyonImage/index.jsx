@@ -1,13 +1,13 @@
-/* :::: DesertCaveImage :::: */
+/* :::: SteelCanyonImage :::: */
 import { Parallax } from 'react-parallax';
-import Cave from '/desert_cave.jpg';
+import SteelCanyons from '/canyon_steels.jpg';
 
-export default function DesertCaveImage() {
+export default function SteelCanyonImage() {
   return (
     <Parallax
       blur={{ min: -15, max: 15 }}
-      bgImage={Cave}
-      bgImageAlt="cave in a desert"
+      bgImage={SteelCanyons}
+      bgImageAlt="canyon pillars"
       strength={800}
     >
       <div className="imageContent"></div>

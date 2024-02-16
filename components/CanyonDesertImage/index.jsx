@@ -10,9 +10,7 @@ export default function CanyonDesertImage() {
       bgImageAlt="canyons"
       strength={800}
     >
-      <div className="imageContent">
-        <p className="imageMsg">canyon</p>
-      </div>
+      <div className="imageContent"></div>
     </Parallax>
   );
 }

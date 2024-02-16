@@ -10,9 +10,7 @@ export default function StoneDesertImage() {
       bgImageAlt="black rock desert"
       strength={800}
     >
-      <div className="imageContent">
-        <p className="imageMsg">black rock desert</p>
-      </div>
+      <div className="imageContent"></div>
     </Parallax>
   );
 }

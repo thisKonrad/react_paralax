@@ -10,9 +10,7 @@ export default function BeduinesImage() {
       bgImageAlt="beduines on a trail"
       strength={800}
     >
-      <div className="imageContent">
-        <p className="imageMsg">beduines on a trail</p>
-      </div>
+      <div className="imageContent"></div>
     </Parallax>
   );
 }

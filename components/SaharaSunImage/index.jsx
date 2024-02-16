@@ -9,6 +9,8 @@ export default function SaharaSunImage() {
       bgImage={Sahara}
       bgImageAlt="sahara sun"
       strength={800}
-    ></Parallax>
+    >
+      <div className="imageContent"></div>
+    </Parallax>
   );
 }
